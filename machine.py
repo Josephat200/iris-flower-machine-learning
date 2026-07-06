@@ -1,8 +1,11 @@
+from pathlib import Path
+
 import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("iris_model.pkl")
+MODEL_PATH = Path(__file__).resolve().parent / "Iris_Classification" / "models" / "iris_model.pkl"
+model = joblib.load(MODEL_PATH)
 
 species = ["Setosa", "Versicolor", "Virginica"]
 
