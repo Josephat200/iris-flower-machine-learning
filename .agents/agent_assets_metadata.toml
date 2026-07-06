@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "IYQUOMDQRrvXx3MNMdo9u"
+uri = "file://README.md"
+type = "text"
+title = "Iris Flower Classification — Full Documentation"
